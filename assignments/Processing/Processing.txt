@@ -1,0 +1,45 @@
+I have a  question to be done using Processing Language:-
+ 
+
+The question is about several balls moving around the display window and rebounding off the edge. For higher grades, you are required to add the following functionalities –
+ 
+a. Fading of the balls while moving
+b. Ensure that, at the time of generation, none of the balls overlap
+c. Utilize collideWith(Ball other) method provided to implement collision of balls with each
+other.
+
+
+ 
+
+An implementation using Classes would be much simpler and logical.
+
+ 
+Each ball has the following characteristics –
+ 
+1.      diameter(between 20 and 80 pixels)
+
+2.      color(random)
+
+3.      location (random, but such that the entire ball is within the window)
+
+4.      speed in x and y directions (each speed component is a random value between 0.1 and 2.0)
+
+5.      additionally for fading, it has –
+
+                      a. opacity and
+                      b. speed of fading
+
+ 
+
+The number of balls that are generated are between 5 and 20.
+
+
+
+-------------------
+
+I would prefer it in processing.
+The solution is:-
+ 
+http://sleepeater.net/comp115assignment3HD/applet/
+ 
+ 
